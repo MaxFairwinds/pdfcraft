@@ -17,7 +17,7 @@ craft-ui = { git = "https://github.com/storytold/craft-libs", version = "0.1.0",
 # Quit the macOS way (#1136): ⌘Q asks about unsaved changes, and closing quits through `terminate:`.
 craft-quit = { git = "https://github.com/storytold/craft-libs", version = "0.1.0", rev = "f58bc1a3df490992d633393d0898af0588ce882c" }
 # Shared system spooler; document composition remains in pdfcraft-print.
-craft-print = { git = "https://github.com/storytold/craft-libs", version = "0.1.0", rev = "666c358065261a2816b376fa3bb10538dbf53040" }
+craft-print = { git = "https://github.com/MaxFairwinds/craft-libs", version = "0.1.0", rev = "1e4a5ed17c4bf652388464bc2ceaf86bc2fc02e1" }
 # internal
 pdfcraft-geom = { path = "crates/geom", version = "0.8.0" }
 pdfcraft-filters = { path = "crates/filters", version = "0.8.0" }
