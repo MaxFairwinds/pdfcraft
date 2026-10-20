@@ -74,7 +74,8 @@ standard size the printer has), else by the CUPS name of the standard size, so t
 feeds that sheet rather than the queue's default. Headless: `printer_papers` lists them and
 `doc_print` takes a key or label as `paper`. On Windows the sizes are the driver's page media
 sizes (`craft_print::printer_papers`; a Zebra label driver offers its one "User defined"
-stock), the default marked; the web lists none.
+stock), the default marked: the driver's own sizes, so a form added only in Windows' Print
+Server Properties is listed only if the driver offers it; the web lists none.
 
 **Match page at 100%** uses the currently viewed document page to choose a standard
 sheet or one of the printer's own (either orientation, within 0.5 pt for rounded metric
